@@ -1,0 +1,20 @@
+# ESP-IDF编译产物
+build/
+dist/
+*.bin
+*.elf
+*.map
+*.hex
+sdkconfig.old
+flash_args
+
+# IDE缓存
+.vscode/
+.idea/
+*.launch
+.DS_Store
+
+# 临时文件
+*.bak
+*.tmp
+log*.txt
